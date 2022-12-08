@@ -1,6 +1,7 @@
 /* Gerais */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F9F9F9;
 }
 
 .row {
@@ -45,4 +46,47 @@ header, .navbar {
 
 .navbar-expand-lg .navbar-nar .nav-link {
     padding: 1rem .8rem;
+}
+
+/* Sobre o Pedro */
+.container-solid {
+    padding: 0;
+    margin-top: 3%;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title:after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 10%;
+    position: absolute;
+    top: 60px;
+    left: 45%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #333;
+    margin-right: 15px;
 }
