@@ -48,6 +48,51 @@ header, .navbar {
     padding: 1rem .8rem;
 }
 
+/* Home */
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+#home-area p {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.home-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.home-box a i, .home-box a h4 {
+    transition: .5s;
+}
+
+.home-box a i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.home-box a h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-box:hover > a i, .home-box:hover > a h4 {
+    color: #000;
+}
+
 /* Sobre o Pedro */
 .container-solid {
     padding: 0;
@@ -89,4 +134,29 @@ header, .navbar {
 #about-list i {
     color: #333;
     margin-right: 15px;
+}
+
+/* Experiência do Pedro */
+.exp-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.exp-box i, .exp-box h4 {
+    transition: .5s;
+}
+
+.exp-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.exp-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.exp-box:hover > i, .exp-box:hover > h4 {
+    color: #000;
 }
